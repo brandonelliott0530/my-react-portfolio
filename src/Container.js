@@ -7,6 +7,8 @@ import Portfolio from "./components/pages/Portfolio.js";
 import Home from "./components/pages/Home.js";
 import "./App.css";
 import Logo from "./components/images/Clean Modern Programmer Developer Web Designer Logo (1).png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -32,12 +34,12 @@ export default function Container() {
   const handlePageChange = (page) => setCurrentPage(page);
   return (
     <>
-      <div class="jumbotron jumbotron-fluid">
+      <div className="jumbotron jumbotron-fluid">
         <img id="logo" src={Logo} alt="logo"></img>
 
-        <div id="header-container" class="container">
-          <h1 class="display-4 text-light ">Brandon Elliott</h1>
-          <p class="lead text-light">Full-Stack Web Developer</p>
+        <div id="header-container" className="container">
+          <h1 className="display-4 text-light ">Brandon Elliott</h1>
+          <p className="lead text-light">Full-Stack Web Developer</p>
 
           <Tabs
             id="navTabs"
@@ -47,7 +49,20 @@ export default function Container() {
         </div>
       </div>
       {render()}
-      <footer className="footer"></footer>
+      <footer className="footer">
+        <div id="link-container" className="container">
+          <a href="https://github.com/brandonelliott0530" target="_blank">
+            <FontAwesomeIcon className="svg" icon={faGithub} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/brandon-elliott-751aaa236/"
+            target="_blank"
+          >
+            {" "}
+            <FontAwesomeIcon className="svg" icon={faLinkedin} />{" "}
+          </a>
+        </div>
+      </footer>
     </>
   );
 }
