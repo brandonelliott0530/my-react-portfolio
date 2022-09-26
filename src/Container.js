@@ -38,7 +38,9 @@ export default function Container() {
         <img id="logo" src={Logo} alt="logo"></img>
 
         <div id="header-container" className="container">
-          <h1 className="display-4 text-light ">Brandon Elliott</h1>
+          <h1 className="display-4 text-light font-weight-bold ">
+            Brandon Elliott
+          </h1>
           <p className="lead text-light">Full-Stack Web Developer</p>
 
           <Tabs

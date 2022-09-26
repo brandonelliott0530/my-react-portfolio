@@ -52,6 +52,11 @@ body {
     justify-content: center;
 }
 
+#portfolio-button {
+    border-radius: 20px;
+    color: #f8f9fa
+}
+
 #console-log {
     color: #f8f9fa;
     
@@ -98,7 +103,9 @@ a {
 }
 
 .svg:hover {
-   color: #000
+   color: #000;
+   animation: ease-in;
+   
 }
 
 #link-container {

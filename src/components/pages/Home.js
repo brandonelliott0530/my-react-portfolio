@@ -1,4 +1,7 @@
 import React from "react";
+import Tabs from "../../Tabs";
+import { ReactDOM, useState } from "react";
+import handlePageChange from 
 
 export default function Home() {
   return (
@@ -11,6 +14,13 @@ export default function Home() {
         Here you will find a little about me, my Portfolio, as well as how to
         contact me.
       </p>
+      <button
+        id="portfolio-button"
+        className="btn btn-primary mb-5"
+        onClick={() => {handlePageChange()}}
+      >
+        My Portfolio
+      </button>
     </div>
   );
 }
