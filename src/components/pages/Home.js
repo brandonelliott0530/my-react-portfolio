@@ -1,9 +1,8 @@
 import React from "react";
 import Tabs from "../../Tabs";
-import { ReactDOM, useState } from "react";
-import handlePageChange from 
+import { ReactDOM, useState, currentPage } from "react";
 
-export default function Home() {
+export default function Home({ handlePageChange }) {
   return (
     <div id="home-card" className="card">
       <h2 id="home-card-body" className="card-body">
@@ -16,8 +15,10 @@ export default function Home() {
       </p>
       <button
         id="portfolio-button"
+        href="#portfolio"
+        onClick={() => handlePageChange("Portfolio")}
         className="btn btn-primary mb-5"
-        onClick={() => {handlePageChange()}}
+        {...(currentPage === "Portfolio" ? "nav-link-active" : "nav-link")}
       >
         My Portfolio
       </button>

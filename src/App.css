@@ -95,11 +95,7 @@ a {
 .svg {
     color: #f8f9fa;
     background-color: transparent;
-    height: 50px;
-   
-   
-    
-   
+    height: 50px;  
 }
 
 .svg:hover {
@@ -115,3 +111,15 @@ a {
     
 }
 
+.portfolio-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.card {
+    width: 30%;
+    height: 850px;
+    margin: 5px
+}

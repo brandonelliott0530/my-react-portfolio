@@ -12,10 +12,11 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState("Home");
+  const handlePageChange = (page) => setCurrentPage(page);
 
   const render = () => {
     if (currentPage === "Home") {
-      return <Home />;
+      return <Home handlePageChange={handlePageChange} />;
     }
     if (currentPage === "Portfolio") {
       return <Portfolio />;
@@ -31,7 +32,6 @@ export default function Container() {
     }
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
   return (
     <>
       <div className="jumbotron jumbotron-fluid">
