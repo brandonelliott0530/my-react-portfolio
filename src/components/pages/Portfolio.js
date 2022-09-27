@@ -14,7 +14,7 @@ export default function Portfolio() {
         <div className="card">
           <img
             className="card-img-top"
-            src={customHomePage}
+            src=
             alt="customhomepage"
           />
           <div className="card-body">
