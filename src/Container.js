@@ -9,6 +9,7 @@ import "./App.css";
 import Logo from "./components/images/Clean Modern Programmer Developer Web Designer Logo (1).png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import ParticlesBackground from "./components/ParticlesBackground";
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -50,6 +51,7 @@ export default function Container() {
           />
         </div>
       </div>
+
       {render()}
       <footer className="footer">
         <div id="link-container" className="container">

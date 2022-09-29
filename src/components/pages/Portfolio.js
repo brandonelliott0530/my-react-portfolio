@@ -11,12 +11,8 @@ export default function Portfolio() {
   return (
     <>
       <div className="portfolio-container">
-        <div className="card">
-          <img
-            className="card-img-top"
-            src=
-            alt="customhomepage"
-          />
+        <div className="portfolio-card">
+          <img className="card-img-top" src="" alt="customhomepage" />
           <div className="card-body">
             <p className="card-text">
               Some quick example text to build on the card title and make up the
@@ -24,7 +20,7 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="portfolio-card">
           <img
             className="card-img-top"
             src=".../100px180/?text=Image cap"
@@ -37,7 +33,7 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="portfolio-card">
           <img
             className="card-img-top"
             src=".../100px180/?text=Image cap"
@@ -50,7 +46,7 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="portfolio-card">
           <img
             className="card-img-top"
             src=".../100px180/?text=Image cap"
@@ -63,7 +59,7 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="portfolio-card">
           <img
             className="card-img-top"
             src=".../100px180/?text=Image cap"
@@ -76,7 +72,7 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="portfolio-card">
           <img
             className="card-img-top"
             src=".../100px180/?text=Image cap"

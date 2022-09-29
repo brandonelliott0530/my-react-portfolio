@@ -118,8 +118,13 @@ a {
     
 }
 
-.card {
+.portfolio-card {
     width: 30%;
     height: 850px;
     margin: 5px
+}
+
+#particles {
+    border: 1px solid black;
+    height: 200px;
 }
