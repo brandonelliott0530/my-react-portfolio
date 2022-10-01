@@ -9,6 +9,7 @@ import "./App.css";
 import Logo from "./components/images/Clean Modern Programmer Developer Web Designer Logo (1).png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import Background from "./components/images/john-towner-JgOeRuGD_Y4-unsplash.jpg";
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -50,8 +51,7 @@ export default function Container() {
           />
         </div>
       </div>
-
-      {render()}
+      <div id="background-container">{render()}</div>
       <footer className="footer">
         <div id="link-container" className="container">
           <a href="https://github.com/brandonelliott0530" target="_blank">

@@ -37,7 +37,7 @@ export default function Contact() {
           <label className="contact-label">Message</label>
           <textarea id="message-input" name="message" />
           <input
-            className="btn-primary"
+            className=" btn btn-primary"
             id="contact-submit"
             type="submit"
             value="Send me an email"
