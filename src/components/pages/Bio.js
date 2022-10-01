@@ -2,6 +2,7 @@ import React from "react";
 import "../../App.css";
 import Picture from "../images/IMG_9703 - Edited.png";
 
+// A short biography of me
 export default function Bio() {
   return (
     <div id="bio-container" className="container">

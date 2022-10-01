@@ -2,12 +2,12 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "../../App.css";
 
+// A simple contact form made with emailjs
 export default function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_sgjzrvm",

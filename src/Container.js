@@ -1,23 +1,24 @@
+// import all of the dependencies
 import React, { useState } from "react";
 import Tabs from "./Tabs";
 import Bio from "./components/pages/Bio.js";
 import Contact from "./components/pages/Contact.js";
-import Resume from "./components/pages/Resume";
+import Resume from "./components/pages/Resume.js";
 import Portfolio from "./components/pages/Portfolio.js";
-import Home from "./components/pages/Home.js";
+
 import "./App.css";
 import Logo from "./components/images/Clean Modern Programmer Developer Web Designer Logo (1).png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import Background from "./components/images/john-towner-JgOeRuGD_Y4-unsplash.jpg";
 
+// handles the logic for which component to load when the button is clicked on the tabs component
 export default function Container() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("Bio");
   const handlePageChange = (page) => setCurrentPage(page);
 
   const render = () => {
     if (currentPage === "Home") {
-      return <Home handlePageChange={handlePageChange} />;
+      return <Bio handlePageChange={handlePageChange} />;
     }
     if (currentPage === "Portfolio") {
       return <Portfolio />;
@@ -33,6 +34,7 @@ export default function Container() {
     }
   };
 
+  // returns the container which has the header and footer
   return (
     <>
       <div className="jumbotron jumbotron-fluid">

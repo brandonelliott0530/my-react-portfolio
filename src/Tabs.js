@@ -1,17 +1,10 @@
 import React from "react";
 
+// This is the tabs section of the html. I imported the handlePageChange prop from the container file and use it in the buttons here
+
 export default function Tabs({ currentPage, handlePageChange }) {
   return (
     <ul className="tabs">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => handlePageChange("Home")}
-          className={currentPage === "Home" ? "nav-link-active" : "nav-link"}
-        >
-          Home
-        </a>
-      </li>
       <li className="nav-item">
         <a
           href="#bio"
@@ -34,20 +27,20 @@ export default function Tabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#contact"
-          onClick={() => handlePageChange("Contact")}
-          className={currentPage === "Contact" ? "nav-link-active" : "nav-link"}
-        >
-          Contact Me
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume" ? "nav-link-active" : "nav-link"}
         >
           My Resume
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          onClick={() => handlePageChange("Contact")}
+          className={currentPage === "Contact" ? "nav-link-active" : "nav-link"}
+        >
+          Contact Me
         </a>
       </li>
     </ul>
