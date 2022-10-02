@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e50d6bf6.css",
-    "main.js": "/static/js/main.269e246c.js",
-    "static/media/john-towner-JgOeRuGD_Y4-unsplash.jpg": "/static/media/john-towner-JgOeRuGD_Y4-unsplash.98664e295a7d2d25e44a.jpg",
-    "static/media/IMG_9703 - Edited.png": "/static/media/IMG_9703 - Edited.6ff7d51510f8e127383c.png",
-    "static/media/customhomepage.png": "/static/media/customhomepage.7c9b659e957f52d95ba1.png",
-    "static/media/sociallyNetworked.png": "/static/media/sociallyNetworked.e8d8f618853a6b674eac.png",
-    "static/media/techshop.png": "/static/media/techshop.0e41670d7dd8f42de2bf.png",
-    "static/media/employeeTracker.png": "/static/media/employeeTracker.088302ba3d6b377da22c.png",
-    "static/media/pantrypal.png": "/static/media/pantrypal.79d2fe7a4bd7b52d271b.png",
-    "static/media/Clean Modern Programmer Developer Web Designer Logo (1).png": "/static/media/Clean Modern Programmer Developer Web Designer Logo (1).1b1fe7e893be2b1bac56.png",
-    "static/media/jate.png": "/static/media/jate.00b84bf3c9414d468e8c.png",
-    "index.html": "/index.html",
-    "main.e50d6bf6.css.map": "/static/css/main.e50d6bf6.css.map",
-    "main.269e246c.js.map": "/static/js/main.269e246c.js.map"
+    "main.css": "/my-react-portfolio/static/css/main.6694fdb9.css",
+    "main.js": "/my-react-portfolio/static/js/main.1e249e56.js",
+    "static/media/john-towner-JgOeRuGD_Y4-unsplash.jpg": "/my-react-portfolio/static/media/john-towner-JgOeRuGD_Y4-unsplash.98664e295a7d2d25e44a.jpg",
+    "static/media/IMG_9703 - Edited.png": "/my-react-portfolio/static/media/IMG_9703 - Edited.6ff7d51510f8e127383c.png",
+    "static/media/customhomepage.png": "/my-react-portfolio/static/media/customhomepage.7c9b659e957f52d95ba1.png",
+    "static/media/sociallyNetworked.png": "/my-react-portfolio/static/media/sociallyNetworked.e8d8f618853a6b674eac.png",
+    "static/media/techshop.png": "/my-react-portfolio/static/media/techshop.0e41670d7dd8f42de2bf.png",
+    "static/media/employeeTracker.png": "/my-react-portfolio/static/media/employeeTracker.088302ba3d6b377da22c.png",
+    "static/media/pantrypal.png": "/my-react-portfolio/static/media/pantrypal.79d2fe7a4bd7b52d271b.png",
+    "static/media/Clean Modern Programmer Developer Web Designer Logo (1).png": "/my-react-portfolio/static/media/Clean Modern Programmer Developer Web Designer Logo (1).1b1fe7e893be2b1bac56.png",
+    "static/media/jate.png": "/my-react-portfolio/static/media/jate.00b84bf3c9414d468e8c.png",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.6694fdb9.css.map": "/my-react-portfolio/static/css/main.6694fdb9.css.map",
+    "main.1e249e56.js.map": "/my-react-portfolio/static/js/main.1e249e56.js.map"
   },
   "entrypoints": [
-    "static/css/main.e50d6bf6.css",
-    "static/js/main.269e246c.js"
+    "static/css/main.6694fdb9.css",
+    "static/js/main.1e249e56.js"
   ]
 }
