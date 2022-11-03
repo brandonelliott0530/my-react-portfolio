@@ -101,7 +101,7 @@ export default function Portfolio() {
               target="_blank"
             >
               {" "}
-              <FontAwesomeIcon className="svg" icon={faDesktop} />
+              <FontAwesomeIcon className="svg " icon={faDesktop} />
             </a>
           </div>
         </div>
