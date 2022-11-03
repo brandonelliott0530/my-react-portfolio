@@ -20,10 +20,10 @@ export default function Portfolio() {
         Here are a few of my latest projects
       </p>
       <div className="portfolio-container container-fluid ">
-        <div class="card portfolio-card">
-          <img class="card-img-top" src={pantrypal} alt="pantrypal"></img>
-          <div class="card-body text-center">
-            <h5 class="card-text mb-3 ">Pantry-Pal</h5>
+        <div className="card portfolio-card">
+          <img className="card-img-top" src={pantrypal} alt="pantrypal"></img>
+          <div className="card-body text-center">
+            <h5 className="card-text mb-3 ">Pantry-Pal</h5>
             <a
               href="https://github.com/brandonelliott0530/Pantry-Pal"
               target="_blank"
@@ -37,10 +37,10 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
-        <div class="card portfolio-card">
-          <img class="card-img-top" src={jate} alt="Jate"></img>
-          <div class="card-body text-center">
-            <h5 class="card-text mb-3 ">Just Another Text Editor</h5>
+        <div className="card portfolio-card">
+          <img className="card-img-top" src={jate} alt="Jate"></img>
+          <div className="card-body text-center">
+            <h5 className="card-text mb-3 ">Just Another Text Editor</h5>
             <a
               href="https://github.com/brandonelliott0530/Text-editor-pwa"
               target="_blank"
@@ -57,14 +57,14 @@ export default function Portfolio() {
             </a>
           </div>
         </div>{" "}
-        <div class="card portfolio-card">
+        <div className="card portfolio-card">
           <img
-            class="card-img-top"
+            className="card-img-top"
             src={customHomePage}
             alt="Custom Home Page"
           ></img>
-          <div class="card-body text-center">
-            <h5 class="card-text mb-3 ">Custom Home Page</h5>
+          <div className="card-body text-center">
+            <h5 className="card-text mb-3 ">Custom Home Page</h5>
             <a
               href="https://github.com/brandonelliott0530/custom-homepage"
               target="_blank"
@@ -83,12 +83,12 @@ export default function Portfolio() {
         </div>
         <div class="card portfolio-card">
           <img
-            class="card-img-top"
+            className="card-img-top"
             src={employeeTracker}
             alt="Employee Tracker"
           ></img>
-          <div class="card-body text-center">
-            <h5 class="card-text mb-3 ">Employee Tracker</h5>
+          <div className="card-body text-center">
+            <h5 className="card-text mb-3 ">Employee Tracker</h5>
             <a
               href="https://github.com/brandonelliott0530/employee-tracker"
               target="_blank"
@@ -105,14 +105,14 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
-        <div class="card portfolio-card">
+        <div className="card portfolio-card">
           <img
-            class="card-img-top"
+            className="card-img-top"
             src={sociallyNetworked}
             alt="socially networked"
           ></img>
-          <div class="card-body text-center">
-            <h5 class="card-text mb-3 ">Socially Networked</h5>
+          <div className="card-body text-center">
+            <h5 className="card-text mb-3 ">Socially Networked</h5>
             <a
               href="https://github.com/brandonelliott0530/socially-networked"
               target="_blank"
@@ -129,10 +129,10 @@ export default function Portfolio() {
             </a>
           </div>
         </div>{" "}
-        <div class="card portfolio-card">
-          <img class="card-img-top" src={techshop} alt="pantrypal"></img>
-          <div class="card-body text-center">
-            <h5 class="card-text mb-3 ">Tech Shop</h5>
+        <div className="card portfolio-card">
+          <img className="card-img-top" src={techshop} alt="pantrypal"></img>
+          <div className="card-body text-center">
+            <h5 className="card-text mb-3 ">Tech Shop</h5>
             <a
               href="https://github.com/brandonelliott0530/tech-shop"
               target="_blank"
