@@ -21,7 +21,9 @@ export default function Bio() {
         me an email from the Contact Me page, or contact me at my LinkedIn
         profile.
       </p>
-      <p className="bio-content">Happy Hacking!</p>
+      <p id="bio-subtitle" className="bio-content">
+        Happy Hacking!
+      </p>
     </div>
   );
 }
