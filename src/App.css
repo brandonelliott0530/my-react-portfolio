@@ -13,9 +13,10 @@ body {
     
 }
 
+
+
 #background-container {
     background-image: url("./components/images/john-towner-JgOeRuGD_Y4-unsplash.jpg");
-    height: 100vh;
     background-size: cover;
     margin: 0;
 
@@ -29,6 +30,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
     
           
@@ -155,6 +157,7 @@ a {
 #portfolio-title {
     color: #f8f9fa;
     padding-top: 25px;
+    margin-top: 300px;
     
 }
 
@@ -172,8 +175,8 @@ a {
     flex-wrap: wrap;
     max-width: 100%;
     justify-content: center;
-    margin-top: 250px;
-    
+    margin-top: 25px;
+     
     
    
     
@@ -211,6 +214,9 @@ a {
     color:#f8f9fa;
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-top: 400px;
+    background-color: #123;
+    border-top: 1px solid #123;
 }
 
 #contact-form {
@@ -250,7 +256,10 @@ a {
 #message-input {
     width: 500px;
     box-shadow: 5px 5px 10px rgb(44, 49, 59);
+    
 }
+
+
 
 /* Styles for the Bio page start here */
 #bio-container {
@@ -294,7 +303,9 @@ a {
     display: flex;
     flex-direction: column;
     line-height: 1.2;
-    margin-right: 65px;
+    margin-top: 290px;
+    margin-right: 25px;
+    text-align: center;
 
 }
 
@@ -310,6 +321,10 @@ a {
     align-self: center;
 }
 
+#resume-summary {
+    text-align: center;
+}
+
 #resume-btn {
     
     background-color: #123;
@@ -318,6 +333,16 @@ a {
     max-width: 200px;
     align-self: center;
     
+}
+
+.skill {
+    list-style: none;
+    
+}
+
+#skills-list {
+   margin: auto;
+   text-align: center;
 }
 
 
@@ -351,8 +376,15 @@ a {
     transform: translateY(0px);
    }
    #background-container {
-    background: rgb(17, 34, 51);
-    background-image: linear-gradient(180deg, rgba(17, 34, 51, 1) 0%, rgba(44, 49, 59, 1) 35%);
+    background-color: #123;
+  
+   }
+   body {
+    background-color: #123;
+   }
+
+   #message-input {
+    width: 250px;
    }
     
 }
@@ -374,7 +406,10 @@ a {
          .tabs {
             transform: translateY(0px);
             
-         }  
+         } 
+         /* body {
+            width: fit-content;
+         } */
 }
 
 @media screen and (max-width:442px){
@@ -418,6 +453,8 @@ a {
          #home-card-text {
              font-size: 8px;
          }
+
+
 
 }
 

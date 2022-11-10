@@ -21,10 +21,10 @@ export default function Resume() {
         Full-stack web developer looking to leverage the problem solving,
         independent, and self-motivating skills learned in an eight year career
         as a BMW Master Technician, into a career as a Full-Stack web developer
-        using the latest technologies to build a . Earned a certificate in
-        Full-Stack Web Development from the University of Denver Coding
-        Bootcamp. Strengths in problem solving, creativity, teamwork,
-        organization, and time management.
+        using the latest technologies to build a better user experience on the
+        web. Earned a certificate in Full-Stack Web Development from the
+        University of Denver Coding Bootcamp. Strengths in problem solving,
+        creativity, teamwork, organization, and time management.
       </p>
       <h4 className="summary-title">Technical Skills:</h4>
       <ul id="skills-list">
