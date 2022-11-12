@@ -40,12 +40,14 @@ body {
     max-height: 200px;
     margin-left: 50px;
     float: left;
+    margin-right: 15px;
 }
     
     
 
 .lead {
     padding-left: 4px;
+    
     
 }
 
@@ -60,6 +62,16 @@ body {
     
     
 }
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link-active {
+    font-size: 24px;
+}
+
+
 
 /* Styling for the home page starts here */
 #home-card {
@@ -444,7 +456,14 @@ a {
 
 @media screen and (max-width: 375px ) {
     .nav-link {
-        font-size: 8px;
+        font-size: 12px;
+    }
+    .nav-link-active {
+        font-size: 18px;
+    }
+
+    .lead {
+        text-align: center;
     }
          #console-log {
              font-size: 10px;
